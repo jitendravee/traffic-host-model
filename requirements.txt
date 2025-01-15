@@ -1,6 +1,7 @@
+torch
 fastapi
 uvicorn
-opencv-python-headless  # For OpenCV without GUI support
 numpy
+opencv-python
 requests
-torch
+pandas
