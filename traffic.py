@@ -45,6 +45,7 @@ def get_api_data(api_url):
         data = response.json()
         # Extract video feeds and signal IDs
         global VIDEO_FEEDS, SIGNAL_ID
+        
         VIDEO_FEEDS = [signal["signal_image"] for signal in data["signals"]]
         SIGNAL_ID = [signal["signal_id"] for signal in data["signals"]]
 
